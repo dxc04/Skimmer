@@ -6,8 +6,8 @@ Author: Sandae P. Macalalag
  Build Date Friday May 14, 2010
  Last Modification Date: Sunday October 3, 2011
 
- USAGE
- -----
+USAGE
+-----
 	cd public_html
 	cd branch_name
  	python path/to/skimmer init_repo
@@ -18,14 +18,14 @@ Author: Sandae P. Macalalag
 
 	You can add the bin directory of Skimmer on your environment PATH so you can run the script wherever you are.
 
- CURRENT LIMITATION
- ------------------
+CURRENT LIMITATION
+------------------
         * files need to be unique
         * Needs more error handling
 	* Creates a file in the current base directory
 
- TODO
- ----
+TODO
+----
 	* Error Handling
         * Remove the init_repo command, automatically index the files on the current directory
 	* Select a File option for duplicate files
