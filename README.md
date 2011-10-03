@@ -7,13 +7,11 @@ HELPING THIS CODE TO GROW IS VERY MUCH APPRECIATED.
 
 USAGE
 -----
-cd public_html
-cd branch_name
-python path/to/skimmer init_repo
-//// This will index the files and directories on that branch
 
-python path/to/skimmer DnaAssessmentStudent.class.php
-//// This will find the file and open it in vim
+* cd public_html
+* cd branch_name
+* python path/to/skimmer init_repo
+* python path/to/skimmer DnaAssessmentStudent.class.php
 
 You can add the bin directory of Skimmer on your environment PATH so you can run the script wherever you are.
 
