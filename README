@@ -5,13 +5,15 @@
 
 # USAGE:
 
+#	cd public_html
+#	cd branch_name
 # 	./skimmer.py init_repo
-#	index the files and directories
+#	//// This will index the files and directories on that branch
 
-# 	./skimmer.py Something.php
-#       find file and open it in vim
+# 	./skimmer.py DnaAssessmentStudent.class.php
+#       //// This will find the file and open it in vim
 
-#	Add the bin directory in your environment PATH so you can run the script wherever you are
+#	You can add the bin directory of Skimmer on your environment PATH so you can run the script wherever you are.
 
 # CURRENT LIMITATION:
 #       * files need to be unique
