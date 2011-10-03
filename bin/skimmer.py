@@ -9,7 +9,6 @@ def init():
 	for dirname, dirnames, filenames in os.walk('.'):
 		for filename in filenames:
 			dict[filename] = os.path.join(dirname, filename)
-	
 	return dict
 
 def write_all(list):
@@ -21,7 +20,6 @@ def read_all():
 	data_file = open('data.pkl', 'rb')
 	data = pickle.load(data_file)
 	data_file.close()
-
 	return data
 
 def get_file(filename):
