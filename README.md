@@ -5,7 +5,7 @@ Skimmer is a file traversal tool
 
 HELPING THIS CODE TO GROW IS VERY MUCH APPRECIATED.
 
-USAGE
+Usage
 -----
 
 * cd public_html
@@ -15,14 +15,14 @@ USAGE
 
 You can add the bin directory of Skimmer on your environment PATH so you can run the script wherever you are.
 
-CURRENT LIMITATION
+Current Limitations
 ------------------
 
 * files need to be unique
 * Needs more error handling
 * Creates a file in the current base directory
 
-TODO
+Todo
 ----
 
 * Error Handling
