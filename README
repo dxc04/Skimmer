@@ -1,30 +1,30 @@
-# Author: Sandae P. Macalalag
-# Application: Skimmer v0.1 in Python 2.4
-# Build Date Friday May 14, 2010
-# Last Modification Date: Sunday October 3, 2011
+ Author: Sandae P. Macalalag
+ Application: Skimmer v0.1 in Python 2.4
+ Build Date Friday May 14, 2010
+ Last Modification Date: Sunday October 3, 2011
 
-# USAGE:
-#	cd public_html
-#	cd branch_name
-# 	python path/to/skimmer init_repo
-#	//// This will index the files and directories on that branch
+ USAGE:
+	cd public_html
+	cd branch_name
+ 	python path/to/skimmer init_repo
+	//// This will index the files and directories on that branch
 
-# 	python path/to/skimmer DnaAssessmentStudent.class.php
-#       //// This will find the file and open it in vim
+ 	python path/to/skimmer DnaAssessmentStudent.class.php
+       //// This will find the file and open it in vim
 
-#	You can add the bin directory of Skimmer on your environment PATH so you can run the script wherever you are.
+	You can add the bin directory of Skimmer on your environment PATH so you can run the script wherever you are.
 
-# CURRENT LIMITATION:
-#       * files need to be unique
-#       * Needs more error handling
-#	* Creates a file in the current base directory
+ CURRENT LIMITATION:
+        * files need to be unique
+        * Needs more error handling
+	* Creates a file in the current base directory
 
-# TODO:
-#       * Error Handling
-#       * Remove the init_repo command, automatically index the files on the current directory
-#	* Select a File option for duplicate files
-#	* Centrality feature!
-#	* Integrate on VIM
-#	* Find with regex
+ TODO:
+	* Error Handling
+        * Remove the init_repo command, automatically index the files on the current directory
+	* Select a File option for duplicate files
+	* Centrality feature!
+	* Integrate on VIM
+	* Find with regex
 
-#	HELPING THIS CODE TO GROW IS VERY MUCH APPRECIATED.
+	HELPING THIS CODE TO GROW IS VERY MUCH APPRECIATED.
